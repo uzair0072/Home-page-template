@@ -1,5 +1,53 @@
-html {    
+body {    
     font-family: Arial, Helvetica, sans-serif;
-    background: url('assets/adventure.jpg') no-repeat center fixed;     
+    background: url('assets/adventure.jpg') no-repeat center fixed;
     background-size: cover;
 }
+
+#cotravel, #destination, #members, #about, #testimonials, #gallery, #sign-in {
+    color: white;
+    font-weight: 600;
+}
+
+.container, .lower-container {
+    position: relative;
+}
+
+.center-text {
+    position: absolute;
+    top: 150px;
+    background-color: transparent;
+    color: white;
+}
+
+#explore {
+    font-size: 60px;
+}
+
+#top-text {
+    font-weight: 500;
+}
+
+#start-btn {
+    background-color: #FD4C16;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+    padding: 5px 80px 5px 80px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.empty-container {
+    margin-top: 20%;
+}
+
+.row{
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.column1, .column2, .column3 {
+    flex: 1;
+    margin-right: 20px;
+} 
